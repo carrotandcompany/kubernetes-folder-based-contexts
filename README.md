@@ -1,6 +1,6 @@
 # Kubernetes folder-based context demo
 
-This is a demo for this [blog post](https://www.cnc.io/en/blog/streamlining-kubernetes-project-management-with-project-specific-contexts.html).
+This is a demo for this [blog post](https://www.cnc.io/en/blog/streamlining-kubernetes-project-management-with-folder-based-contexts.html).
 
 
 # Prerequisits
@@ -39,7 +39,7 @@ ctlptl apply -f ctlptl.yaml
 
 Now you have two local kubernetes clusters running and you can switch between them by changing the directory.
 
-More details on how this works can be found in the [blog post](https://www.cnc.io/en/blog/streamlining-kubernetes-project-management-with-project-specific-contexts.html).
+More details on how this works can be found in the [blog post](https://www.cnc.io/en/blog/streamlining-kubernetes-project-management-with-folder-based-contexts.html).
 
 
 # LICENSE 
