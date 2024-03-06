@@ -1,0 +1,17 @@
+apiVersion: ctlptl.dev/v1alpha1
+kind: Cluster
+name: anotherproj
+product: minikube
+registry: anotherproj-reg
+minikube:
+  startFlags:
+    - "--addons=ingress,ingress-dns"
+    - "--nodes=1"
+
+---
+# Creates a registry available on 127.0.0.1:5002
+apiVersion: ctlptl.dev/v1alpha1
+kind: Registry
+port: 5002
+name: anotherproj-reg
+listenAddress: 127.0.0.1
